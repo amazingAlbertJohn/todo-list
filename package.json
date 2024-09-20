@@ -1,0 +1,27 @@
+{
+  "name": "todo-list",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "albert":"npx json-server todo_list.json"
+  },
+  "dependencies": {
+    "@mdi/font": "7.4.47",
+    "axios": "^1.7.7",
+    "json-server": "^1.0.0-beta.2",
+    "roboto-fontface": "*",
+    "vue": "^3.4.31",
+    "vue-spinner": "^1.0.4",
+    "vuetify": "^3.6.11"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.5",
+    "sass": "1.77.6",
+    "unplugin-fonts": "^1.1.1",
+    "unplugin-vue-components": "^0.27.2",
+    "vite": "^5.3.3",
+    "vite-plugin-vuetify": "^2.0.3"
+  }
+}
